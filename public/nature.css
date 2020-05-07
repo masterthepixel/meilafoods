@@ -1,0 +1,87 @@
+.city {
+    overflow: visible;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+/*.city:hover {
+    border-left: 10px solid green;
+   }*/
+
+.sd {
+    background-image: url('http://upload.wikimedia.org/wikipedia/commons/8/89/Hibiscus_barkcloth_Honolulu.jpg');
+    background-size: cover;
+}
+
+.la {
+    background-image: url('https://c2.staticflickr.com/2/1176/1380433087_30d4efa949_b.jpg');
+    background-size: cover;
+}
+
+.sf {
+    background-image: url('https://c1.staticflickr.com/1/40/84765297_e504abb13d_z.jpg?zz=1 ');
+    url('http://upload.wikimedia.org/wikipedia/commons/8/89/Hibiscus_barkcloth_Honolulu.jpg');
+
+}
+
+
+.limit {
+    width: 760px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    line-height: .78em;
+    text-align: left;
+}
+
+.sf,
+.la {
+    font-size: 120px;
+    width: 790px;
+    
+    
+}
+
+.la {
+    font-size: 160px;
+    width: 800px;
+}
+
+.ca {
+    font-size: 450px;
+    width: 1000px;
+}
+
+.ca {
+    background-image: url('http://c1.staticflickr.com/1/42/84765015_c2a1a9e74b_z.jpg?zz=1');
+    background-position-y: 40px;
+    url('http://upload.wikimedia.org/wikipedia/commons/8/89/Hibiscus_barkcloth_Honolulu.jpg');
+}
+
+
+.nature-bg {
+    background: linear-gradient(81deg, #ce6c91, #dd98b2, #904c66);
+    background-size: 600% 600%;
+    
+    -webkit-animation: AnimationName 6s ease infinite;
+    -moz-animation: AnimationName 6s ease infinite;
+    animation: AnimationName 6s ease infinite;
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 59%}
+        50%{background-position:100% 42%}
+        100%{background-position:0% 59%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 59%}
+        50%{background-position:100% 42%}
+        100%{background-position:0% 59%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 59%}
+        50%{background-position:100% 42%}
+        100%{background-position:0% 59%}
+    }
+}
